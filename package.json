@@ -1,0 +1,22 @@
+{
+  "name": "sapfioneer",
+  "version": "1.0.0",
+  "description": "QA Automation Challenge",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "automation",
+    "testing",
+    "Cypress",
+    "typescript"
+  ],
+  "author": "Magdalena Lozowska-Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cypress": "^1.1.3",
+    "@types/node": "^20.11.19",
+    "cypress": "^13.6.4",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}
