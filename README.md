@@ -9,6 +9,7 @@ This document outlines the test cases designed for the SAP Fioneer website and p
 **Objective**: Verify if the "Get in Touch" button has a yellow color.
 
 **Steps**:
+
 1. Go to the SAP Fioneer homepage.
 2. Verify if the "Get in Touch" button has a yellow color.
 
@@ -17,6 +18,7 @@ This document outlines the test cases designed for the SAP Fioneer website and p
 **Objective**: Ensure the user is redirected to the correct page upon clicking the ESG KPI Engine link under the Finance & ESG bookmark.
 
 **Steps**:
+
 1. Go to the SAP Fioneer homepage.
 2. Under the Finance & ESG bookmark, click on "ESG KPI Engine".
 3. Verify if the user has been redirected to "ESG KPI Engine" page
@@ -26,6 +28,7 @@ This document outlines the test cases designed for the SAP Fioneer website and p
 **Objective**: Check the validation message for incorrect email input in the contact form.
 
 **Steps**:
+
 1. Go to the SAP Fioneer homepage.
 2. Click on the "Get in Touch" button.
 3. Verify if the user has been redirected to the "Contact" page.
@@ -51,11 +54,19 @@ npm install
 ```
 
 ### Running tests
+
 **Headless mode**
 
 ```bash
 npx cypress run
 ```
+
+or
+
+```bash
+npm run run-tests
+```
+
 ![Screenshot 2024-02-16 at 09 58 37](https://github.com/mlozowska/sapfioneer/assets/60215258/5d6c136b-aad0-40cf-8094-d3a9d26403ce)
 
 **Interactive mode with Cypress Test Runner**
@@ -63,5 +74,11 @@ npx cypress run
 ```bash
 npx cypress open
 ```
-<img width="1085" alt="Screenshot 2024-02-16 at 10 08 30" src="https://github.com/mlozowska/sapfioneer/assets/60215258/ea7e353f-93a6-48a4-bca0-5cc17f98e659">
 
+or
+
+```bash
+npm run open-tests
+```
+
+<img width="1085" alt="Screenshot 2024-02-16 at 10 08 30" src="https://github.com/mlozowska/sapfioneer/assets/60215258/ea7e353f-93a6-48a4-bca0-5cc17f98e659">

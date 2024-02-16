@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "QA Automation Challenge",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "run-tests": "cypress run",
+    "open-tests": "cypress open"
+  },
   "keywords": [
     "automation",
     "testing",
