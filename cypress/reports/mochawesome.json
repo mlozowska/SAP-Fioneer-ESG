@@ -1,0 +1,202 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-02-16T10:51:20.072Z",
+    "end": "2024-02-16T10:51:26.366Z",
+    "duration": 6294,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "69863b1d-f8b0-4ddd-9d71-80c5f08823f6",
+      "title": "",
+      "fullFile": "cypress/e2e/tests/test.cy.ts",
+      "file": "cypress/e2e/tests/test.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ca4365cc-855d-4bcf-bd1d-36e8ab2156b9",
+          "title": "SAP Fioneer Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "2a98b6c0-4dd4-4d1c-840c-313cdcd3b181",
+              "title": "Button color verification",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should verify the color of the Get in Touch button",
+                  "fullTitle": "SAP Fioneer Tests Button color verification should verify the color of the Get in Touch button",
+                  "timedOut": null,
+                  "duration": 1560,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "HomePage_PO_1.default.verifyButtonColor();",
+                  "err": {},
+                  "uuid": "822e069c-2917-4487-af9f-b875e65f103b",
+                  "parentUUID": "2a98b6c0-4dd4-4d1c-840c-313cdcd3b181",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "822e069c-2917-4487-af9f-b875e65f103b"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1560,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "2ddb47c2-4b43-4392-86ff-37689fdc6290",
+              "title": "Navigation and redirection to Esg Kpi Engine",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should redirect to Esg Kpi Engine page",
+                  "fullTitle": "SAP Fioneer Tests Navigation and redirection to Esg Kpi Engine should redirect to Esg Kpi Engine page",
+                  "timedOut": null,
+                  "duration": 1306,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "HomePage_PO_1.default.selectEsgKpiEngineMenu();\nHomePage_PO_1.default.verifyRedirectionToEsgKpiEngine();",
+                  "err": {},
+                  "uuid": "1f273e87-b105-472b-8df2-29b28e7138bb",
+                  "parentUUID": "2ddb47c2-4b43-4392-86ff-37689fdc6290",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "1f273e87-b105-472b-8df2-29b28e7138bb"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1306,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "0e17337d-28d7-42c1-9256-9b014d601c53",
+              "title": "Contact Form validation - incorrect email",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should redirect to contact form and verify email validation",
+                  "fullTitle": "SAP Fioneer Tests Contact Form validation - incorrect email should redirect to contact form and verify email validation",
+                  "timedOut": null,
+                  "duration": 2374,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "HomePage_PO_1.default.clickGetInTouchBtn();\nContactPage_PO_1.default.verifyContactFormPageURL();\nContactPage_PO_1.default.verifyIncorrectEmailFormatValidationMessage();",
+                  "err": {},
+                  "uuid": "afb996dc-aa7a-4bb5-bc46-e6f3dadd0c9a",
+                  "parentUUID": "0e17337d-28d7-42c1-9256-9b014d601c53",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "afb996dc-aa7a-4bb5-bc46-e6f3dadd0c9a"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 2374,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
