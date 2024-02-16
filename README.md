@@ -83,9 +83,11 @@ npm run open-tests
 
 <img width="1085" alt="Screenshot 2024-02-16 at 10 08 30" src="https://github.com/mlozowska/sapfioneer/assets/60215258/ea7e353f-93a6-48a4-bca0-5cc17f98e659">
 
-**Generate test reports in JSON format**
+
+### Generate test reports in JSON format
 This command will run Cypress tests in headless mode and generate JSON reports in the cypress/reports directory.
 
 ```bash
 npm run test:reports
 ```
+![Screenshot 2024-02-16 at 11 56 13](https://github.com/mlozowska/SAP-Fioneer-ESG/assets/60215258/57f9e093-6bd4-404b-8337-628b68f246e8)
