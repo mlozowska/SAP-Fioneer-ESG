@@ -66,8 +66,8 @@ or
 ```bash
 npm run run-tests
 ```
+![Screenshot 2024-02-16 at 09 58 37](https://github.com/mlozowska/SAP-Fioneer-ESG/assets/60215258/d6459a7e-57c1-4b2d-8eb0-92523ea75884)
 
-![Screenshot 2024-02-16 at 09 58 37](https://github.com/mlozowska/sapfioneer/assets/60215258/5d6c136b-aad0-40cf-8094-d3a9d26403ce)
 
 **Interactive mode with Cypress Test Runner**
 
@@ -80,8 +80,7 @@ or
 ```bash
 npm run open-tests
 ```
-
-<img width="1085" alt="Screenshot 2024-02-16 at 10 08 30" src="https://github.com/mlozowska/sapfioneer/assets/60215258/ea7e353f-93a6-48a4-bca0-5cc17f98e659">
+<img width="1085" alt="Screenshot 2024-02-16 at 10 08 30" src="https://github.com/mlozowska/SAP-Fioneer-ESG/assets/60215258/7735d06e-38d5-4903-bbe1-8ab63fbef0ef">
 
 
 ### Generate test reports in JSON format
